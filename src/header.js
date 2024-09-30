@@ -30,8 +30,8 @@ const Header = () => {
 
                         </ul>
                         <form class="d-flex">
-                            <button class="btn " type="submit">Login</button>
-                            <button class="btn btn-warning rounded-5 text-white mx-3" type="submit">Book Scooter</button>
+                            <button class="btn">Login</button>
+                            <button class="btn btn-warning rounded-5 text-white mx-3">Book Scooter</button>
                         </form>
                     </div>
                 </div>
@@ -44,16 +44,16 @@ const Header = () => {
                 </div>
                 <div className='container '>
                     <div className='row align-items-center'>
-                        <div className='col-lg-6 col col-md-6 col-sm-12 col-xs-12 position-relative'>
+                        <div className='col-lg-7 col col-sm-12'> 
 
                             <h1 className='fw-medium text-light-emphasis'>Fair price ride</h1>
                             <h1 className='display-1 fw-bold'>Rent our <span className='text-warning'>Scooter</span> </h1>
 
-                            <p className='text-light-emphasis'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <p className='text-light-emphasis'>Lorem Ipsum has been the industry's standard dummy text ever since the <br/> 1500s, when an unknown printer took a galley of type and scrambled it to <br/> make a type specimen book. </p>
 
 
                         </div>
-                        <div className='col-lg-6 col col-md-6 col-sm-12 col-xs-12'>
+                        <div className='col-lg-5 col col-sm-12'>
                             <img className='img-fluid' src={Hero} />
                         </div>
                     </div>
